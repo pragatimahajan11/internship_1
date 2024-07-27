@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intenship project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <section id="form1">
+        <main>
+            <div class="imgsec">
+                <img class="img" src="./assets/img/bluepic.jpeg">
+                <ul class="infolist">
+                    <div>
+                        <li class="step-active">
+                            <span>1</span>
+                        </li> 
+                        <p>step1<br><span>YOUR INFO</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>2</span>
+                        </li> 
+                        <p>step2<br><span>SELECT PLAN</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>3</span>
+                        </li> 
+                        <p>step3<br><span>ADD-ONS</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>4</span>
+                        </li> 
+                        <p>step4<br><span>SUMMARY</span></p>
+                    </div>
+                </ul>
+               </img>
+            </div>
+        </main>
+
+        <aside>
+            <div class="container">
+                <form id="form" >
+                    <h1>Personal info</h1>
+                    <h5>Please provide your name,email address,and phone number.</h5>
+                    <div class="input-control">
+                        <label for="Name">Name</label>
+                        <input id="name" name="Name" type="text" required>
+                    </div>
+                    <div class="input-control">
+                        <label for="Email">Email address</label>
+                        <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="Email"  required>
+                    </div>
+                    <div class="input-control">
+                        <label for="number">Phone number</label>
+                        <input id="num" name="number" type="text" required>
+                    </div>
+
+                    <button type="submit"  class="next" id="next" class="next">next</button>
+
+                </form>
+            </div>
+        </aside>
+    </section>
+
+    <!-- select section start -->
+
+    <section id="form2">
+        <main>
+              <div class="imgsec">
+
+                <img class="img" src="./assets/img/bluepic.jpeg">
+                <ul class="infolist">
+                    <div>
+                        <li class="active">
+                            <span>1</span>
+                        </li> 
+                        <p>step1<br><span>YOUR INFO</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>2</span>
+                        </li> 
+                        <p>step2<br><span>SELECT PLAN</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>3</span>
+                        </li> 
+                        <p>step3<br><span>ADD-ONS</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>4</span>
+                        </li> 
+                        <p>step4<br><span>SUMMARY</span></p>
+                    </div>
+                </ul>
+            </img>
+            </div>
+        </main>
+
+        <aside1>
+            <div class="sel">
+                <h1>Select your plan</h1>
+                <h5>You have the option of monthly or yearly billing.</h5>
+                <ul>
+                    <li class="bx">
+                        <i class="fa fa-user"></i>
+                        <h4>Arcade <br>$9/mo </h4>
+                    </li>
+                    <li>
+                        <i class="fa fa-user"></i>
+                        <h4>Advanced <br>$12/mo </h4>
+                    </li>
+                    <li>
+                        <i class="fa fa-user"></i>
+                        <h4>Pro <br>$15/mo </h4>
+                    </li>
+                </ul>
+                <button type="button"  id="planback">Go Back</button>
+                <button type="button"  id="planNext" class="next">Next step</button>
+            </div>
+        </aside1>
+    </section>
+
+    <!-- pick add sectiom start -->
+
+    <section id="form3">
+        <main>
+            <div class="imgsec">
+                <img class="img" src="./assets/img/bluepic.jpeg">
+                <ul class="infolist">
+                    <div>
+                        <li class="active">
+                            <span>1</span>
+                        </li> 
+                        <p>step1<br><span>YOUR INFO</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>2</span>
+                        </li> 
+                        <p>step2<br><span>SELECT PLAN</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>3</span>
+                        </li> 
+                        <p>step3<br><span>ADD-ONS</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>4</span>
+                        </li> 
+                        <p>step4<br><span>SUMMARY</span></p>
+                    </div>
+                </ul>
+                </img>
+            </div>
+        </main>
+
+        <aside>
+            <div class="container">
+                <form id="form">
+                    <h1>Pick add-ons</h1>
+                    <h5>Add-ons help enhance your gaming experience.</h5>
+                    <div class="row">
+                        <label>
+                            <input type="checkbox" checked="checked">
+                        </label>
+                        <div>
+                            <p>Online service</p>
+                            <h5>Access to multiplayer games</h5>
+                        </div>
+                        <h4>+$1/mo</h4>
+                    </div>
+                    <div class="row">
+                        <label>
+                            <input type="checkbox" checked="checked">
+                        </label>
+                        <div>
+                        <p>Larger storage</p>
+                        <h5>Extra 1TB of cloud save</h5>
+                        </div>
+                        <h4>+$2/mo</h4>
+
+                        
+                    </div>
+                    <div class="row">
+                        <label>
+                            <input type="checkbox" checked="checked">
+                        </label>
+                        <div>
+                            <p>Customizable Profile</p>
+                            <h5>Custom theme on your profile</h5>
+                        </div>
+                        <h4>+$2/mo</h4>
+
+                       
+                    </div>
+                    <button type="button" class="goback" id="addOnback">Go Back</button>
+                    <button type="button"  id="addOnnext" class="next">Next step</button>
+
+                </form>
+            </div>
+        </aside>
+    </section>
+
+    <!-- finishing section start -->
+    <section id="form4" >
+        <main>
+            <div class="imgsec">
+                <img class="img" src="./assets/img/bluepic.jpeg">
+                <ul class="infolist">
+                    <div>
+                        <li class="active">
+                            <span>1</span>
+                        </li> 
+                        <p>step1<br><span>YOUR INFO</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>2</span>
+                        </li> 
+                        <p>step2<br><span>SELECT PLAN</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>3</span>
+                        </li> 
+                        <p>step3<br><span>ADD-ONS</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>4</span>
+                        </li> 
+                        <p>step4<br><span>SUMMARY</span></p>
+                    </div>
+                </ul>
+                </img>
+            </div>
+        </main>
+
+        <aside>
+            <div class="container">
+                <form id="form">
+                    <h1>Finishing up</h1>
+                    <h5>Double-check everything looks OK before confirming.</h5>
+
+                  <div class="payment-content">
+                    <div class="payment">
+                        <div class="payment-plan">
+                            <div class="payment-name">Arcade(monthly)</div>
+                            <div class="payment-price">$9/mo</div>
+                        </div>
+                        <a href="#" id="change" class="payment-plan-change">Change</a>
+                    </div>
+                    <div class="payment-summary">
+                        <div class="payment-summary-item">
+                            <div class="payment-summary-name">Online service</div>
+                            <div class="payment-summary-price">+$1/mo</div>
+                        </div>
+                        <div class="payment-summary-item">
+                            <div class="payment-summary-name">Llarger storage</div>
+                            <div class="payment-summary-price">+$2/mo</div>
+                        </div> 
+                        <div class="payment-summary-item-divider"></div>
+                        <div class="payment-summary-item payment-summary-item-total">
+                            <div class="payment-summary-name">Total (per month)</div>
+                            <div class="payment-summary-price">+$12/mo</div>
+                        </div>   
+                    </div>
+                  </div>
+                    <button type="button" class="goback" id="finishgoback">Go Back</button>
+                    <button type="button" class="btnnext" id="finishConfirm">Confirm</button>
+                </form>
+            </div>
+        </aside>
+    </section>
+
+    <!-- summary section start -->
+     <section id="form5">
+        <main>
+            <div class="imgsec">
+                <img class="img" src="./assets/img/bluepic.jpeg">
+                <ul class="infolist">
+                    <div>
+                        <li class="active">
+                            <span>1</span>
+                        </li> 
+                        <p>step1<br><span>YOUR INFO</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>2</span>
+                        </li> 
+                        <p>step2<br><span>SELECT PLAN</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>3</span>
+                        </li> 
+                        <p>step3<br><span>ADD-ONS</span></p>
+                    </div>
+                    <div>
+                        <li class="active">
+                            <span>4</span>
+                        </li> 
+                        <p>step4<br><span>SUMMARY</span></p>
+                    </div>
+                </ul>
+                </img>
+            </div>
+        </main>
+        <div class="icons">
+            <i class="fa-solid fa-check"></i>
+            <h1>Thank you!</h1>
+            <p>Thanks for confirming your subscription!  </p>
+        </div>
+        
+     </section>
+
+</body>
+
+<script>
+
+    var form1 = document.getElementById("form1");
+    var form2 = document.getElementById("form2");
+    var form3 = document.getElementById("form3");
+    var form4 = document.getElementById("form4");
+    var form5 = document.getElementById("form5");
+
+
+
+    var btn1 = document.getElementById("next");
+
+    var btn2 = document.getElementById("planback");
+    var btn3 = document.getElementById("planNext");
+
+    var btn4 = document.getElementById("addOnnext");
+    var btn5 = document.getElementById("addOnback");
+
+    var btn6 = document.getElementById("finishgoback");
+    var btn7 = document.getElementById("finishConfirm");
+    var change = document.getElementById("change");
+
+    var btn8 = document.getElementById("finishConfirm");
+
+    btn1.addEventListener('click', (e) => {
+    e.preventDefault();
+    let form=e.target;
+
+    var nametxt = document.getElementById("name").value;
+        var emailtxt = document.getElementById("email").value;
+        var numtxt = document.getElementById("num").value;
+
+        var atposition=emailtxt.indexOf("@");  
+        var dotposition=emailtxt.lastIndexOf(".");
+
+        if(nametxt==""){
+                alert("name field is empty")
+        }
+        else if(emailtxt==""){
+            alert(" email field is empty")
+        }
+        else if(atposition<1 || dotposition<atposition+2 || dotposition+2>=emailtxt.length)
+            {
+                alert("enter valid email")
+            }  
+        else if(numtxt==""){
+            alert(" number field is empty")
+        }
+        else{
+        form1.style.display = "none"
+        form2.style.display = "flex"
+        }
+
+    });
+
+    btn2.addEventListener('click', (e) => {
+
+        form1.style.display = "flex"
+        form2.style.display = "none"
+    });
+
+    btn3.addEventListener('click', (e) => {
+
+    form2.style.display = "none"
+    form3.style.display = "flex"
+   });
+
+    btn4.addEventListener('click', (e) => {
+    form3.style.display = "none"
+    form4.style.display = "flex"
+    });
+
+    btn5.addEventListener('click', (e) => {
+    form3.style.display = "none"
+    form2.style.display = "flex"
+    });
+
+    btn6.addEventListener('click', (e) => {
+    form3.style.display = "flex"
+    form4.style.display = "none"
+    });
+
+    btn7.addEventListener('click', (e) => {
+    form4.style.display = "none"
+    form3.style.display = "none"
+    });
+
+    change.addEventListener('click', (e) => {
+        form1.style.display = "flex"
+        form4.style.display = "none"
+    });
+
+    btn8.addEventListener('click', (e) => {
+    form4.style.display = "none"
+    form5.style.display = "flex"
+    });
+
+   
+
+</script>
+<!-- src="script.js" type="text/javascript"> -->
+
+
+</html>

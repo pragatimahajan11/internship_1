@@ -1,0 +1,366 @@
+ *{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+ body{
+    background: white;
+}
+.img{
+   width: 75%;
+   height: 80vh;
+   display: flex;
+   /* padding: 20px; */
+   /* padding-left:20px ; */
+   border-radius: 12px 12px 12px 12px;
+   /* box-shadow: 0px  2px 20px rgba(0,0,0,0.3 ); */
+   margin: 25px;
+   /* opacity: 0.9; */
+   background: rgba(37, 37, 205, 0.3);
+}
+button:hover 
+{ background-color: #ffdb3a; 
+}
+
+.imgsec{
+   position: relative;
+
+}
+.infolist{
+   position: absolute;
+   top: 60px;
+   left: 60px;
+   padding-top: 15px;
+
+}
+.infolist p{
+   color: white;
+   font-size: 14px;
+}
+.infolist div{
+   display: flex;
+}
+
+.infolist div:hover 
+{ background-color: #ffdb3a; 
+}
+
+.infolist li{
+   height: 27px;
+   width: 26px;
+   top: 2px;
+   border: 2px solid white;
+   border-radius: 25px;
+   align-items: center;
+   margin: 8px;
+   color: white;
+   list-style: none;
+   padding: 5px;
+
+}
+   
+#form1{
+   display: flex;
+}
+#form2{
+    display: none; 
+}
+#form3{
+   display: none; 
+}
+#form4{
+   display: none; 
+}
+#form5{
+   display: none; 
+}
+
+ section{
+   display: flex;
+   justify-content: center
+ }
+
+#form{
+    width: 300px;
+    margin: 25vh auto 0auto;
+    padding: 20px;
+    padding-top: 20%;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+ #form h1{
+    color:rgb(12, 67, 91) ;
+ }
+
+ #form h5{
+    color: darkgray;
+ }
+ #bt,#planback{
+   float: left;
+   margin-top: 55px;
+   background: white;
+   color: black;
+   border-style: none;
+   padding-top: 5px;
+ }
+ #btn{
+   float: left;
+   margin-top: 55px;
+   color: black;
+   background: white;
+   border-style: none;
+ }
+ .next{
+    padding: 7px;
+    margin-top: 50px;
+    float: right;
+    width: 30%;
+    height: 30px;
+    color: white;
+    background: rgb(1, 79, 127);
+    border: none;
+    border-radius: 4px;
+    
+ }
+
+  button{
+    float: left;
+    border-style: none;
+    padding-top: 50px;
+    background-color: white;
+ }
+  #finishConfirm{
+   float: right;
+   width: 30%;
+    height: 30px;
+    padding: 7px;
+    margin-top: 50px;
+    color: #f0f0f0;
+    border-radius: 4px;
+   background:  rgb(1, 79, 127);
+ }
+ .input-control {
+    display: flex;
+    flex-direction: column;
+ }
+ .input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 8px;
+    width: 100%;
+ }
+ .input-control input:focus{
+    outline: 0;
+ }
+
+ 
+ 
+ 
+
+ .section2{
+   justify-content: center;
+ }
+ .sel{
+   padding-top: 20%;
+ }
+ .sel h1{
+   padding-top: 10%;
+ }
+ .sel ul{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 10%;
+ }
+ .bx{
+   border: 1px solid;
+}
+ .sel ul li{
+   list-style: none;
+   width: 250;
+   height: 100px;
+   color: black;
+   text-align: center;
+   padding: 10px;
+   background-color: rgb(254, 253, 253);
+   border-color: black;
+   border: 1px solid;
+   
+ }
+ .sel ul li:hover{
+   background-color: #ffdb3a;
+ }
+ .sel ul  i{
+   color:white;
+   background:orange;
+   width: 20px;
+   height: 20px;
+   border-radius: 10px;
+ }
+
+ .row{
+   display: flex;
+   align-items: center;
+   margin: 30px 0;
+   background: white;
+   color: black;
+   border: 0.1px solid black;
+   width: 260px;
+   height: 49px;
+   padding: 2px;
+   border-radius: 5px 5px 5px 5px;
+   justify-content: space-between;
+ }
+ .row label{
+   margin: 4px;
+ }
+
+ .row:hover{
+   background-color: #ffdb3a;
+ }
+
+
+/* finishing section */
+ 
+.form h1{
+   padding-top: 5px;
+ }
+
+ .payment-content{
+   padding: 5px;
+   margin-top: 30px;
+   background-color: rgb(255 255 255);
+   border-radius: 0 0 12px 12px;
+   box-shadow: 0 4px 24px rgba(0,0,0,0.3 );
+ }
+ .payment-plan{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   justify-content: space-between;
+ }
+.payment-plan-change{
+   color: rgb(23 23 228);
+   font-size: 12px;
+   font-weight: 591px;
+   padding-left: 10px;
+   padding-top: 2px;
+}
+.payment-plan-change:hover{
+   color: rgb(34, 34, 86);
+}
+ 
+.payment-summary-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 6px 12px;
+}
+.payment-summary-name{
+   font-size: 14px;
+   color: rgb(118, 115, 115);
+}
+.payment-summary-price{
+   font-weight: 500;
+   font-size: 15px;
+}
+.payment-summary-item-divider{
+   width: calc(100% - 16px);
+   height: 0;
+   margin: 16px auto;
+   position: relative;
+}
+.payment-summary-item-total{
+padding-bottom: 16px;   
+}
+.payment-summary-total .payment-summary-name{
+   color: darkgrey;
+}
+.payment-summary-total .payment-summary-price{
+   font-size: 17px;
+   color: indigo;
+}
+
+/* last section */
+
+ .icons {
+ width: 100px;
+ height: 100px;
+ align-items: center;
+ background: linear-gradient(red, orange);
+ border-radius: 55px;
+ position: relative;
+ margin: 58px 94px;
+} 
+.icons i{
+   position: absolute;
+   top: 40px;
+   font-size: 26px;
+   right: -40px;
+   width: 100px;
+   height: 100px;
+   color: white
+}
+.icons h1{
+   padding-top: 106px;
+}
+.icons p{
+   flex-direction: row;
+   /* padding: 10px;
+   margin: 10px;
+   width: 20px; */
+}
+
+
+
+@media screen  and (max-width:600px){
+   .img {
+      width: 80%;
+      height: 84vh;
+   } 
+   #form {
+      width: 317px;
+      padding-top: 8%;
+   }
+   .next {
+      margin-top: 17px;
+   }
+   .infolist {
+      position: absolute;
+      top: 31px;
+      left: 43px;
+      padding-top: 2px;
+   }
+   .sel {
+         padding-top: 0%;
+     }
+     .sel h1{
+      font-size: 18px;
+     }
+
+   #bt, #planback {
+      margin-top: 20px;
+     }
+
+   .row {
+      margin: 8px 2px;
+      width: 266px;
+      height: 38px;
+      padding: 8px;
+   }
+   button #addOnback{
+      padding-top: 0px;
+   }
+   .payment-content {
+      padding: 5px;
+      margin-top: 6px;
+   }
+   .payment-summary-item {
+      padding: 3px 5px;
+   }
+   button {
+      padding-top: 18px;
+   }
+}
